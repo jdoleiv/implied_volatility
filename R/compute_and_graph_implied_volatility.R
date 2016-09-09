@@ -49,7 +49,6 @@
 compute_and_graph_implied_volatility <- function(df,
                                                  risk_free_rate = 0.01,
                                                  initial_volatility_guess = 0.5) {
-    print("We are inside the funciton")
     df <- append_implied_volatility(df)
     print(graph_implied_volatility(df))
     return(df)
