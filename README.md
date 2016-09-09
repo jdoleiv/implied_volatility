@@ -17,7 +17,7 @@ Technically `roxygen2`, `testthat`, and `knitr` are only required if you are goi
 ### 2. Install the package using GitHub
 
 ```
-devtools::install_github("otrenav/implied_volatility")
+devtools::install_github("jdoleiv/implied_volatility")
 ```
 
 > NOTE: if you use yourown repository or fork this one, remember to install from your repository by changing `otrenav` to user corresponding user name.
