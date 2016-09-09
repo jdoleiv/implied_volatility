@@ -29,11 +29,11 @@ wrapper around the \code{EuropeanOptionImpliedVolatility} function from the
 
 
 The columns in the dataframe should be as follows:
-- \code{type}: One of the two values: 'call' or 'put' (string)
-- \code{value}: Value of the option (number)
-- \code{underlying}: Current price of the underlying (number)
-- \code{strike}: Strike price of the option (number)
-- \code{maturity}: Time to maturity in fractional years (number)
+- \code{Type}: One of the two values: 'call' or 'put' (string)
+- \code{Value}: Value of the option (number)
+- \code{Underlying}: Current price of the underlying (number)
+- \code{Strike}: Strike price of the option (number)
+- \code{Maturity}: Time to maturity in fractional years (number)
 
 TODO: Model/financial restrictions on the parameters should be made clear here...
 

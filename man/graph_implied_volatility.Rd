@@ -16,6 +16,11 @@ graph_implied_volatility(df)
 This function receives as input a dataframe that contains at least the columns
 \code{Strike} and \code{ImpliedVolatility}. It primarily intended to be used
 with the output dataframe from the \code{append_implied_volatility} function.
+
+
+The columns in the dataframe should be as follows:
+- \code{Strike}: Strike price of the option (number)
+- \code{ImpliedVolatility}: implied volatility (number)
 }
 \author{
 John Dole <jdoleiv@gmail.com>
